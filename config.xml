@@ -3,7 +3,7 @@
 <widget xmlns = "http://www.w3.org/ns/widgets" 
    xmlns:gap = "http://phonegap.com/ns/1.0" id = "com.narayan.onlineviewer" version = "1.0">
    
-   <name>Tutorials Point</name>
+   <name>Narayan app Point</name>
    
    <description>
       Tutorials Point Online Viewer
