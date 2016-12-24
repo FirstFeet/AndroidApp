@@ -16,23 +16,38 @@
 </head>
 <body>
 	<div id="home" data-role="page">
-		<div data-role="header">
+		<div data-role="header" data-theme="a">
 			<h2>Home</h2>
 			<a href="#blog" data-icon="arrow-r" data-iconpos="right">blog</a>
+			<a href="#info" data-icon="info" data-iconpos="notext">info</a>
 		</div>
 		
 		<p>welcome to view source app</p>
 		
+		
 	</div>
 	
 	<div id="blog" data-role="page">
-		<div data-role="header">
+		<div data-role="header" data-theme="f">
 			<h2>Blog</h2>
 			<a href="#home" data-icon="home" data-iconpos="notext">home</a>
 		</div>
-		
-		<p>welcome to view source blog</p>
-		
+		<div data-role="content">
+			<div data-role="collapsible-set">
+				<div data-role="collapsible">
+					<h4>sample1</h4>
+					<p>this is sample text.asdf adsf asdf adsfa adfasd afsdfa</p>
+				</div>	
+				<div data-role="collapsible">
+					<h4>sample2</h4>
+					<p>this is sample text.asdf adsf asdf adsfa adfasd afsdfa</p>
+				</div>	
+				<div data-role="collapsible">
+					<h4>sample3</h4>
+					<p>this is sample text.asdf adsf asdf adsfa adfasd afsdfa</p>
+				</div>	
+			</div>
+		</div>
 	</div>
 </body>
 </html>
